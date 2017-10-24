@@ -100,7 +100,7 @@ else
         KBUILD_CFLAGS += -fno-pic
 
 	# Use -mpreferred-stack-boundary=3 if supported.
-	KBUILD_CFLAGS += $(call cc-option,-mpreferred-stack-boundary=3)
+	##ITRI##tcwu#####KBUILD_CFLAGS += $(call cc-option,-mpreferred-stack-boundary=3)
 
 	# Use -mskip-rax-setup if supported.
 	KBUILD_CFLAGS += $(call cc-option,-mskip-rax-setup)
